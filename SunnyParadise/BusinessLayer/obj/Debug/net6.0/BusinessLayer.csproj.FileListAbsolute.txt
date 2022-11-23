@@ -1,0 +1,15 @@
+D:\.NET projects\SunnyParadise\BusinessLayer\bin\Debug\net6.0\BusinessLayer.deps.json
+D:\.NET projects\SunnyParadise\BusinessLayer\bin\Debug\net6.0\BusinessLayer.dll
+D:\.NET projects\SunnyParadise\BusinessLayer\bin\Debug\net6.0\BusinessLayer.pdb
+D:\.NET projects\SunnyParadise\BusinessLayer\obj\Debug\net6.0\BusinessLayer.csproj.AssemblyReference.cache
+D:\.NET projects\SunnyParadise\BusinessLayer\obj\Debug\net6.0\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET projects\SunnyParadise\BusinessLayer\obj\Debug\net6.0\BusinessLayer.AssemblyInfoInputs.cache
+D:\.NET projects\SunnyParadise\BusinessLayer\obj\Debug\net6.0\BusinessLayer.AssemblyInfo.cs
+D:\.NET projects\SunnyParadise\BusinessLayer\obj\Debug\net6.0\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\.NET projects\SunnyParadise\BusinessLayer\obj\Debug\net6.0\BusinessLayer.dll
+D:\.NET projects\SunnyParadise\BusinessLayer\obj\Debug\net6.0\refint\BusinessLayer.dll
+D:\.NET projects\SunnyParadise\BusinessLayer\obj\Debug\net6.0\BusinessLayer.pdb
+D:\.NET projects\SunnyParadise\BusinessLayer\obj\Debug\net6.0\ref\BusinessLayer.dll
+D:\.NET projects\SunnyParadise\BusinessLayer\bin\Debug\net6.0\DataLayer.dll
+D:\.NET projects\SunnyParadise\BusinessLayer\bin\Debug\net6.0\DataLayer.pdb
+D:\.NET projects\SunnyParadise\BusinessLayer\obj\Debug\net6.0\BusinessLayer.csproj.CopyComplete
