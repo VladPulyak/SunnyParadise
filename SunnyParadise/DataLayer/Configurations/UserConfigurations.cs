@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DataLayer.Configurations
 {
-    internal class UserConfigurations : IEntityTypeConfiguration<User>
+    public class UserConfigurations : IEntityTypeConfiguration<User>
     {
         public void Configure(EntityTypeBuilder<User> builder)
         {

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DataLayer.Configurations
 {
-    internal class HotelConfigurations : IEntityTypeConfiguration<Resort>
+    public class HotelConfigurations : IEntityTypeConfiguration<Resort>
     {
         public void Configure(EntityTypeBuilder<Resort> builder)
         {

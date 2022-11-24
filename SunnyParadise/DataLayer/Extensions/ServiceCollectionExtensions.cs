@@ -13,8 +13,8 @@ namespace DataLayer.Extensions
         public static IServiceCollection AddSunnyParadiseDBContext(this IServiceCollection service, string connectionString)
         {
             service.AddDbContext<SunnyParadiseDBContext>(options =>
-            {
-                options.UseSqlServer(connectionString);
+            { 
+                options.UseSqlServer(connectionString, options => options.MigrationsAssembly("SunnyParadise"));
             });
             return service;
         }

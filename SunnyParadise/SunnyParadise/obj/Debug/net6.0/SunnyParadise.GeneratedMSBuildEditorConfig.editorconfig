@@ -16,12 +16,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = D:\.NET projects\SunnyParadise\SunnyParadise\SunnyParadise
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/Info/Egypt.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb1xFZ3lwdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/Home/Turkey.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUdXJrZXkuY3NodG1s
+[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/Info/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/Info/Turkey.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb1xUdXJrZXkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/Shared/Error.cshtml]

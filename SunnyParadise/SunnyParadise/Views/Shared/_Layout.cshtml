@@ -62,7 +62,7 @@
             <div class="px-3 py-2 bg-lightgreen text-white">
                 <div class="container-fluid">
                     <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                        <a asp-area="" asp-controller="Home" asp-action="Index" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+                        <a asp-area="" asp-controller="Info" asp-action="Index" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
                             <svg width="45" height="45" fill="currentColor" class="bi bi-brightness-high">
                                 <use xlink:href="#icon-sun" />
                             </svg>
@@ -70,15 +70,9 @@
                         </a>
                         <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
                             <li>
-                                <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">
+                                <a class="nav-link text-white" asp-area="" asp-controller="Info" asp-action="Index">
                                     <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#home" /></svg>
                                     Home
-                                </a>
-                            </li>
-                            <li>
-                                <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Privacy">
-                                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#speedometer2" /></svg>
-                                    Dashboard
                                 </a>
                             </li>
                             <li>
@@ -90,13 +84,13 @@
                             <li>
                                 <a href="#" class="nav-link text-white">
                                     <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#grid" /></svg>
-                                    Products
+                                    Hotels
                                 </a>
                             </li>
                             <li>
                                 <a href="#" class="nav-link text-white">
                                     <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#people-circle" /></svg>
-                                    Customers
+                                    Account
                                 </a>
                             </li>
                             <li>
@@ -128,16 +122,16 @@
 @await RenderSectionAsync("Scripts", required: false)
 
 
-<div>
+<div class="customfooter">
     <footer class="d-flex flex-wrap justify-content-between align-items-center bg-lightgreen px-3 py-3">
         <p class="col-md-4 mb-0 text-white">&copy; 2022 Company, Inc</p>
-
-        <a asp-area="" asp-controller="Home" asp-action="Index" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-            <svg width="40" height="40" fill="currentColor" class="bi bi-brightness-high">
-                <use xlink:href="#icon-sun" />
-            </svg>
-        </a>
-
+        <div>
+            <a asp-area="" asp-controller="Info" asp-action="Index" class="d-flex align-items-center justify-content-center text-white text-decoration-none">
+                <svg width="40" height="40" fill="currentColor" class="bi bi-brightness-high">
+                    <use xlink:href="#icon-sun" />
+                </svg>
+            </a>
+        </div>
         <ul class="nav col-md-4 justify-content-end">
             <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Home</a></li>
             <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Features</a></li>

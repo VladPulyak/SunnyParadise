@@ -13,6 +13,7 @@ namespace DataLayer.Entities
         public int? ResortId { get; set; }
         public int? HotelId { get; set; }
         public DateTime? DateOfCreating { get; set; }
+        public DateTime? DateOfTrip { get; set; }
         public Hotel Hotel { get; set; }
         public Resort Resort { get; set; }
         public User User { get; set; }

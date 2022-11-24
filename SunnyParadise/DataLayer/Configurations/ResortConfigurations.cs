@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace DataLayer.Configurations
 {
-    internal class ResortConfigurations : IEntityTypeConfiguration<Resort>
+    public class ResortConfigurations : IEntityTypeConfiguration<Resort>
     {
         public void Configure(EntityTypeBuilder<Resort> builder)
         {

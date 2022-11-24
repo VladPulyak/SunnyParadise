@@ -1,6 +1,5 @@
 using DataLayer.Entities;
 using DataLayer.Extensions;
-MemoryStream
 namespace SunnyParadise
 {
     public class Program
@@ -24,15 +23,13 @@ namespace SunnyParadise
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             
-
-
             app.UseRouting();
 
             app.UseAuthorization();
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=info}/{action=Index}/{id?}");
 
             app.Run();
         }
