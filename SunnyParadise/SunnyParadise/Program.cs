@@ -1,5 +1,8 @@
+using DataLayer;
 using DataLayer.Entities;
 using DataLayer.Extensions;
+using Microsoft.EntityFrameworkCore;
+
 namespace SunnyParadise
 {
     public class Program
@@ -22,7 +25,7 @@ namespace SunnyParadise
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-            
+
             app.UseRouting();
 
             app.UseAuthorization();

@@ -49,6 +49,54 @@
       "PackagePath": "staticwebassets\\images\\Egypt-Hurhgada.jpg"
     },
     {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\dubai1.jpg",
+      "PackagePath": "staticwebassets\\images\\dubai1.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\dubai2.jpg",
+      "PackagePath": "staticwebassets\\images\\dubai2.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\dubai3.jpg",
+      "PackagePath": "staticwebassets\\images\\dubai3.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\dubai4.jpg",
+      "PackagePath": "staticwebassets\\images\\dubai4.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\hawaii1.jpg",
+      "PackagePath": "staticwebassets\\images\\hawaii1.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\hawaii2.jpg",
+      "PackagePath": "staticwebassets\\images\\hawaii2.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\hawaii3.jpg",
+      "PackagePath": "staticwebassets\\images\\hawaii3.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\hawaii4.jpg",
+      "PackagePath": "staticwebassets\\images\\hawaii4.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\ibiza1.jpg",
+      "PackagePath": "staticwebassets\\images\\ibiza1.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\ibiza2.jpg",
+      "PackagePath": "staticwebassets\\images\\ibiza2.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\ibiza3.jpg",
+      "PackagePath": "staticwebassets\\images\\ibiza3.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\ibiza4.jpg",
+      "PackagePath": "staticwebassets\\images\\ibiza4.jpg"
+    },
+    {
       "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\sharm-el-sheikh1.jpg",
       "PackagePath": "staticwebassets\\images\\sharm-el-sheikh1.jpg"
     },

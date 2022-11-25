@@ -12,6 +12,10 @@ namespace DataLayer
 {
     public class SunnyParadiseDBContext : DbContext
     {
+        public SunnyParadiseDBContext()
+        {
+
+        }
         public SunnyParadiseDBContext(DbContextOptions<SunnyParadiseDBContext> options) : base(options)
         {
         }

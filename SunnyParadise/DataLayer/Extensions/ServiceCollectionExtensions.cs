@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -10,13 +11,12 @@ namespace DataLayer.Extensions
 {
     public static class ServiceCollectionExtensions
     {
-        public static IServiceCollection AddSunnyParadiseDBContext(this IServiceCollection service, string connectionString)
+        public static void AddSunnyParadiseDBContext(this IServiceCollection service, string connectionString)
         {
             service.AddDbContext<SunnyParadiseDBContext>(options =>
-            { 
-                options.UseSqlServer(connectionString, options => options.MigrationsAssembly("SunnyParadise"));
+            {
+                options.UseSqlServer(connectionString, options => options.MigrationsAssembly("DataLayer"));
             });
-            return service;
         }
     }
 }
