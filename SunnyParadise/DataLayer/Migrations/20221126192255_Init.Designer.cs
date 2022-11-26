@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataLayer.Migrations
 {
     [DbContext(typeof(SunnyParadiseDBContext))]
-    [Migration("20221125140454_Init")]
+    [Migration("20221126192255_Init")]
     partial class Init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -34,22 +34,28 @@ namespace DataLayer.Migrations
 
                     b.Property<string>("City")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(40)
+                        .HasColumnType("nvarchar(40)");
 
                     b.Property<int>("CountOfRooms")
                         .HasColumnType("int");
 
                     b.Property<string>("Country")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(40)
+                        .HasColumnType("nvarchar(40)");
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(40)
+                        .HasColumnType("nvarchar(40)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Hotels");
+                    b.HasIndex("Name", "Country")
+                        .IsUnique();
+
+                    b.ToTable("Hotels", (string)null);
                 });
 
             modelBuilder.Entity("DataLayer.Entities.Order", b =>

@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 
 namespace DataLayer.Configurations
 {
-    public class HotelConfigurations : IEntityTypeConfiguration<Resort>
+    public class HotelConfigurations : IEntityTypeConfiguration<Hotel>
     {
-        public void Configure(EntityTypeBuilder<Resort> builder)
+        public void Configure(EntityTypeBuilder<Hotel> builder)
         {
             builder.ToTable("Hotels");
             builder.HasKey(q => q.Id);
