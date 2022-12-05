@@ -16,32 +16,80 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = D:\.NET projects\SunnyParadise\SunnyParadise\SunnyParadise
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/Info/Dubai.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb1xEdWJhaS5jc2h0bWw=
+[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/AccountProfile/Test.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFByb2ZpbGVcVGVzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/Info/Egypt.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb1xFZ3lwdC5jc2h0bWw=
+[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/Info/Hawaii.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb1xIYXdhaWkuY3NodG1s
+[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/Info/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb1xJbmRleC5jc2h0bWw=
+[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/HotelsInfo/Crete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxzSW5mb1xDcmV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/Info/Spain.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb1xTcGFpbi5jc2h0bWw=
+[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/HotelsInfo/Dubai.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxzSW5mb1xEdWJhaS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/Info/Turkey.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb1xUdXJrZXkuY3NodG1s
+[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/HotelsInfo/Egypt.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxzSW5mb1xFZ3lwdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/HotelsInfo/Hawaii.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxzSW5mb1xIYXdhaWkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/HotelsInfo/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxzSW5mb1xIb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/HotelsInfo/Spain.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxzSW5mb1xTcGFpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/HotelsInfo/Turkey.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxzSW5mb1xUdXJrZXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/ResortsInfo/Crete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzb3J0c0luZm9cQ3JldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/ResortsInfo/Dubai.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzb3J0c0luZm9cRHViYWkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/ResortsInfo/Egypt.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzb3J0c0luZm9cRWd5cHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/ResortsInfo/Hawaii.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzb3J0c0luZm9cSGF3YWlpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/ResortsInfo/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzb3J0c0luZm9cSG9tZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/ResortsInfo/Spain.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzb3J0c0luZm9cU3BhaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/ResortsInfo/Turkey.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzb3J0c0luZm9cVHVya2V5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/Shared/IsAuthorizedPartialView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXElzQXV0aG9yaXplZFBhcnRpYWxWaWV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/Shared/_ValidationScriptsPartial.cshtml]

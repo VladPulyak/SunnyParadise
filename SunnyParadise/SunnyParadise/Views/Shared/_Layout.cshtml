@@ -55,6 +55,9 @@
         <symbol id="grid" viewBox="0 0 16 16">
             <path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z" />
         </symbol>
+        <symbol id="houses" viewBox="0 0 16 16">
+            <path d="M5.793 1a1 1 0 0 1 1.414 0l.647.646a.5.5 0 1 1-.708.708L6.5 1.707 2 6.207V12.5a.5.5 0 0 0 .5.5.5.5 0 0 1 0 1A1.5 1.5 0 0 1 1 12.5V7.207l-.146.147a.5.5 0 0 1-.708-.708L5.793 1Zm3 1a1 1 0 0 1 1.414 0L12 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l1.854 1.853a.5.5 0 0 1-.708.708L15 8.207V13.5a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 4 13.5V8.207l-.146.147a.5.5 0 1 1-.708-.708L8.793 2Zm.707.707L5 7.207V13.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5V7.207l-4.5-4.5Z" />
+        </symbol>
     </svg>
     <main>
         <h1 class="visually-hidden">Headers examples</h1>
@@ -62,7 +65,7 @@
             <div class="px-3 py-2 bg-lightgreen text-white">
                 <div class="container-fluid">
                     <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                        <a asp-area="" asp-controller="Info" asp-action="Index" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+                        <a asp-area="" asp-controller="ResortsInfo" asp-action="Home" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
                             <svg width="45" height="45" fill="currentColor" class="bi bi-brightness-high">
                                 <use xlink:href="#icon-sun" />
                             </svg>
@@ -70,7 +73,7 @@
                         </a>
                         <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
                             <li>
-                                <a class="nav-link text-white" asp-area="" asp-controller="Info" asp-action="Index">
+                                <a class="nav-link text-white" asp-area="" asp-controller="ResortsInfo" asp-action="Home">
                                     <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#home" /></svg>
                                     Home
                                 </a>
@@ -82,23 +85,45 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="nav-link text-white">
-                                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#grid" /></svg>
+                                <a class="nav-link text-white" asp-area="" asp-controller="HotelsInfo" asp-action="Home">
+                                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#houses" /></svg>
                                     Hotels
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="nav-link text-white">
+                                <a class="nav-link text-white" asp-area="" asp-controller="AccountProfile" asp-action="Test">
                                     <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#people-circle" /></svg>
                                     Account
                                 </a>
                             </li>
-                            <li>
-                                <div class="text-end justify-content-center margin">
-                                    <button type="button" class="btn btn-light text-dark me-2">Login</button>
-                                    <button type="button" class="btn btn-primary">Sign-up</button>
-                                </div>
-                            </li>
+                            @if (Context.User.Identity.IsAuthenticated)
+                            {
+                                <li>
+                                    <div class="text-end justify-content-center margin">
+                                        <button type="button" class="btn btn-outline-light sign-up-button">
+                                            @Context.User.Identity.Name
+                                        </button>
+                                    </div>
+                                </li>
+                            }
+                            else
+                            {
+                                <li>
+                                    <div class="text-end justify-content-center margin">
+                                        <a asp-area="" asp-controller="Account" asp-action="Login" class="urls text-dark">
+                                            <button type="button" class="btn btn-light login-button">
+                                                Login
+                                            </button>
+                                        </a>
+
+                                        <a asp-area="" asp-controller="Account" asp-action="Register" class="urls">
+                                            <button type="button" class="btn btn-outline-light sign-up-button">
+                                                Sign-up
+                                            </button>
+                                        </a>
+                                    </div>
+                                </li>
+                            }
                         </ul>
                     </div>
                 </div>
@@ -110,7 +135,6 @@
 
     <script src="/docs/5.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
-</html>
 <div class="container">
     <main role="main" class="pb-3">
         @RenderBody()
@@ -122,22 +146,22 @@
 @await RenderSectionAsync("Scripts", required: false)
 
 
-<div class="customfooter">
-    <footer class="d-flex flex-wrap justify-content-between align-items-center bg-lightgreen px-3 py-3">
-        <p class="col-md-4 mb-0 text-white">&copy; 2022 Company, Inc</p>
-        <div>
-            <a asp-area="" asp-controller="Info" asp-action="Index" class="d-flex align-items-center justify-content-center text-white text-decoration-none">
-                <svg width="40" height="40" fill="currentColor" class="bi bi-brightness-high">
-                    <use xlink:href="#icon-sun" />
-                </svg>
-            </a>
-        </div>
-        <ul class="nav col-md-4 justify-content-end">
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Features</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-white">About</a></li>
-        </ul>
-    </footer>
-</div>
+
+<footer class="d-flex flex-wrap justify-content-between align-items-center bg-lightgreen px-3 py-3">
+    <p class="col-md-4 mb-0 text-white">&copy; 2022 Company, Inc</p>
+    <div>
+        <a asp-area="" asp-controller="ResortsInfo" asp-action="Home" class="d-flex align-items-center justify-content-center text-white text-decoration-none">
+            <svg width="40" height="40" fill="currentColor" class="bi bi-brightness-high">
+                <use xlink:href="#icon-sun" />
+            </svg>
+        </a>
+    </div>
+    <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Orders</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Hotels</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Account</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-white">About</a></li>
+    </ul>
+</footer>
+</html>

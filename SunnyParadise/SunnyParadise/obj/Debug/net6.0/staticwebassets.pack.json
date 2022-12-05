@@ -49,6 +49,22 @@
       "PackagePath": "staticwebassets\\images\\Egypt-Hurhgada.jpg"
     },
     {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\crete1.jpg",
+      "PackagePath": "staticwebassets\\images\\crete1.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\crete2.jpg",
+      "PackagePath": "staticwebassets\\images\\crete2.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\crete3.jpg",
+      "PackagePath": "staticwebassets\\images\\crete3.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\crete4.jpg",
+      "PackagePath": "staticwebassets\\images\\crete4.jpg"
+    },
+    {
       "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\dubai1.jpg",
       "PackagePath": "staticwebassets\\images\\dubai1.jpg"
     },

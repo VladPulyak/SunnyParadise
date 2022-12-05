@@ -15,7 +15,8 @@ namespace SunnyParadise
             builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
             .AddCookie(options =>
             {
-                options.LoginPath = new PathString("/Account/Login");
+                options.LoginPath = "/Account/Login";
+                options.Cookie.Name = "Test";
             });
             builder.Services.AddControllersWithViews();
             builder.Services.AddSunnyParadiseDBContext(builder.Configuration.GetConnectionString("DefaultConnection"));
@@ -31,15 +32,14 @@ namespace SunnyParadise
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
             app.UseRouting();
 
-            app.UseAuthorization();
             app.UseAuthentication();
+            app.UseAuthorization();
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=info}/{action=Index}/{id?}");
+                pattern: "{controller=ResortsInfo}/{action=Home}/{id?}");
 
             app.Run();
         }

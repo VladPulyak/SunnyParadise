@@ -1,22 +1,24 @@
 ﻿using DataLayer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using SunnyParadise;
 using SunnyParadise.Models;
 using System.Diagnostics;
 
 namespace MyWebProject.Controllers
 {
-    public class InfoController : Controller
+    public class ResortsInfoController : Controller
     {
-        private readonly ILogger<InfoController> _logger;
+        private readonly ILogger<ResortsInfoController> _logger;
         private readonly SunnyParadiseDBContext _context;
 
-        public InfoController(ILogger<InfoController> logger,SunnyParadiseDBContext context)
+        public ResortsInfoController(ILogger<ResortsInfoController> logger, SunnyParadiseDBContext context)
         {
-            _context= context;
+            _context = context;
             _logger = logger;
         }
-        public IActionResult Index()
+        public IActionResult Home()
         {
             return View();
         }

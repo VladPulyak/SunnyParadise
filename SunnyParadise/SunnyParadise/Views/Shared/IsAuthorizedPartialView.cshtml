@@ -1,0 +1,28 @@
+﻿@if (ViewBag.IsAuthenticate is false)
+{
+    <li>
+        <div class="text-end justify-content-center margin">
+            <a asp-area="" asp-controller="Account" asp-action="Login" class="urls text-dark">
+                <button type="button" class="btn btn-light login-button">
+                    Login
+                </button>
+            </a>
+
+            <a asp-area="" asp-controller="Account" asp-action="Register" class="urls">
+                <button type="button" class="btn btn-outline-light sign-up-button">
+                    Sign-up
+                </button>
+            </a>
+        </div>
+    </li>
+}
+else
+{
+    <li>
+        <div class="text-end justify-content-center margin">
+            <button type="button" class="btn btn-outline-light sign-up-button">
+                @Html.ViewBag.UserName
+            </button>
+        </div>
+    </li>
+}
