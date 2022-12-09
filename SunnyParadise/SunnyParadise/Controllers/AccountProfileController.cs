@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using BusinessLayer.Dtos;
 
 namespace SunnyParadise.Controllers
 {
@@ -10,5 +11,14 @@ namespace SunnyParadise.Controllers
         {
             return View();
         }
-    }
+		public IActionResult ChangeProfile()
+		{
+			return View();
+		}
+		[HttpPut]
+		public IActionResult ChangeProfile(UserDto user)
+		{
+			return View();
+		}
+	}
 }

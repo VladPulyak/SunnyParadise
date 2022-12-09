@@ -8,29 +8,38 @@ namespace SunnyParadise.Controllers
         {
             return View();
         }
-        public IActionResult Turkey()
+        public IActionResult LaraBarut()
         {
-            return View();
+            return View("Antaliya/LaraBarut");
         }
+        public IActionResult ConcordeDeLuxe()
+        {
+            return View("Antaliya/ConcordeDeLuxe");
+        }
+        public IActionResult DelphinImperialHotel()
+        {
+            return View("Antaliya/DelphinImperialHotel");
+        }
+
         public IActionResult Egypt()
         {
-            return View();
+            return View("Sharm/Egypt");
         }
         public IActionResult Spain()
         {
-            return View();
+            return View("Ibiza/Spain");
         }
         public IActionResult Hawaii()
         {
-            return View();
+            return View("Hawaii/Hawaii");
         }
         public IActionResult Dubai()
         {
-            return View();
+            return View("Dubai/Dubai");
         }
         public IActionResult Crete()
         {
-            return View();
+            return View("Crete/Crete");
         }
     }
 }

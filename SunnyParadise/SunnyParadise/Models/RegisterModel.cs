@@ -15,7 +15,8 @@ namespace SunnyParadise.Models
         public string Password { get; set; }
 
         [DataType(DataType.Password)]
-        [Compare("Password",ErrorMessage = "Passwords are different")]
+		[Required(ErrorMessage = "Enter Password again")]
+		[Compare("Password",ErrorMessage = "Passwords are different")]
         public string ConfirmPassword { get; set; }
 
         [Required(ErrorMessage = "Enter FirstName")]
@@ -32,5 +33,7 @@ namespace SunnyParadise.Models
 
         [Required(ErrorMessage = "Enter Age")]
         public int Age { get; set; }
-    }
+		[Required(ErrorMessage = "Enter Phone")]
+		public string Phone { get; set; }
+	}
 }

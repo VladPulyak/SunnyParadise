@@ -46,7 +46,7 @@ namespace DataLayer.Repositories
             return _context.SaveChangesAsync();
         }
 
-        public async void Update(int id, Hotel entity)
+        public async Task Update(int id, Hotel entity)
         {
             var hotel = await GetById(id);
             hotel.Id = entity.Id;

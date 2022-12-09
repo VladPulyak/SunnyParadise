@@ -26,7 +26,7 @@
                         <div asp-validation-summary="All">
                             <div class="form-floating mb-3">
                                 <input type="email" class="form-control rounded-4" id="Login" placeholder="Login" asp-for="Login">
-                                <label asp-for="Login">Login</label>
+                                <label asp-for="Login">Email address</label>
                                 @Html.ValidationMessageFor(q=>q.Login)
                             </div>
                             <div class="form-floating mb-3">
@@ -48,6 +48,11 @@
                                 <input type="date" class="form-control rounded-4" id="BirthDate" placeholder="BirthDate" asp-for="BirthDate">
                                 <label asp-for="BirthDate">BirthDate</label>
                                 @Html.ValidationMessageFor(q=>q.BirthDate)
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="tel" class="form-control rounded-4" id="Phone" placeholder="Phone" asp-for="Phone">
+                                <label asp-for="Phone">Phone</label>
+                                @Html.ValidationMessageFor(q=>q.Phone)
                             </div>
                             <div class="mb-3">
                                 <label asp-for="Sex">Sex</label>
@@ -78,6 +83,5 @@
             </div>
         </div>
     </div>
-    <script src="/docs/5.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-</body>
+    </body>
 </html>

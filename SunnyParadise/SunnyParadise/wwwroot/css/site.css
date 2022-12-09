@@ -92,14 +92,16 @@ btn-primary {
     background-color: #dabb83;
 }
 
-.bd-placeholder-img-egypt {
+.bd-placeholder-img-hotels {
     font-size: 1.125rem;
     text-anchor: middle;
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
-    background-color: #9bc7e8;
+    background-color: #aabd6c;
 }
+
+
 
 .bg-color {
     background-color: #cbcbcba6
@@ -137,4 +139,8 @@ btn-primary {
     color: #fff;
     background-color: #c4c4c4;
     border-color: #c4c4c4;
+}
+
+.custompagination {
+    background-color: #cbcbcba6;
 }

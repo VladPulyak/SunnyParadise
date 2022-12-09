@@ -18,6 +18,7 @@ namespace DataLayer.Configurations
             builder.Property(q=>q.FirstName).IsRequired().HasMaxLength(40);
             builder.Property(q=>q.LastName).IsRequired().HasMaxLength(40);
             builder.Property(q => q.Email).IsRequired().HasMaxLength(40);
+            builder.Property(q => q.Phone).IsRequired().HasMaxLength(40);
             builder.Property(q=>q.BirthDate).IsRequired();
             builder.HasIndex(q => new
             {

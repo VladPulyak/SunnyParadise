@@ -46,7 +46,7 @@ namespace DataLayer.Repositories
             return _context.SaveChangesAsync();
         }
 
-        public async void Update(int id, User entity)
+        public async Task Update(int id, User entity)
         {
             var user = await GetById(id);
             user.Id = entity.Id;
@@ -56,6 +56,7 @@ namespace DataLayer.Repositories
             user.Age = entity.Age;
             user.BirthDate = entity.BirthDate;
             user.Sex = entity.Sex;
+            user.Phone = entity.Phone;
         }
     }
 }

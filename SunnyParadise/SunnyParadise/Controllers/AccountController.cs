@@ -62,7 +62,8 @@ namespace SunnyParadise.Controllers
                         Email = model.Login,
                         Age = model.Age,
                         BirthDate = model.BirthDate,
-                        Sex = model.Sex
+                        Sex = model.Sex,
+                        Phone = model.Phone,
                     });
                     await _context.SaveChangesAsync();
                     await Authenticate(model.Login);

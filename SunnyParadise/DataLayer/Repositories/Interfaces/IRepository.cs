@@ -12,7 +12,7 @@ namespace DataLayer.Repositories.Interfaces
         IQueryable<TEntity> GetAll();
         Task<TEntity> GetById(int id);
         Task Add(TEntity entity);
-        void Update(int id, TEntity entity);
+        Task Update(int id, TEntity entity);
         Task Delete(int id);
         Task Save();
     }

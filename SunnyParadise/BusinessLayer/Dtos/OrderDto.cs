@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Dtos
 {
-    internal class OrderDto
+	public class OrderDto
     {
         public DateTime DateOfCreating { get; set; }
     }

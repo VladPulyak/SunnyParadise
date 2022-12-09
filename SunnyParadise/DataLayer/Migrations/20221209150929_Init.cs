@@ -18,7 +18,9 @@ namespace DataLayer.Migrations
                     Name = table.Column<string>(type: "nvarchar(40)", maxLength: 40, nullable: false),
                     Country = table.Column<string>(type: "nvarchar(40)", maxLength: 40, nullable: false),
                     City = table.Column<string>(type: "nvarchar(40)", maxLength: 40, nullable: false),
-                    CountOfRooms = table.Column<int>(type: "int", nullable: false)
+                    CountOfRooms = table.Column<int>(type: "int", nullable: false),
+                    StandartPrice = table.Column<double>(type: "float", nullable: false),
+                    LuxPrice = table.Column<double>(type: "float", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -34,7 +36,8 @@ namespace DataLayer.Migrations
                     Name = table.Column<string>(type: "nvarchar(40)", maxLength: 40, nullable: false),
                     Country = table.Column<string>(type: "nvarchar(40)", maxLength: 40, nullable: false),
                     City = table.Column<string>(type: "nvarchar(40)", maxLength: 40, nullable: false),
-                    Price = table.Column<float>(type: "real", nullable: false)
+                    Price = table.Column<float>(type: "real", nullable: false),
+                    CountOfDays = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -54,7 +57,8 @@ namespace DataLayer.Migrations
                     Sex = table.Column<int>(type: "int", nullable: false),
                     Email = table.Column<string>(type: "nvarchar(40)", maxLength: 40, nullable: false),
                     BirthDate = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    Age = table.Column<int>(type: "int", nullable: false)
+                    Age = table.Column<int>(type: "int", nullable: false),
+                    Phone = table.Column<string>(type: "nvarchar(40)", maxLength: 40, nullable: false)
                 },
                 constraints: table =>
                 {
@@ -97,9 +101,9 @@ namespace DataLayer.Migrations
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Hotels_Name_Country",
+                name: "IX_Hotels_Name_Country_City",
                 table: "Hotels",
-                columns: new[] { "Name", "Country" },
+                columns: new[] { "Name", "Country", "City" },
                 unique: true);
 
             migrationBuilder.CreateIndex(
@@ -119,9 +123,9 @@ namespace DataLayer.Migrations
                 unique: true);
 
             migrationBuilder.CreateIndex(
-                name: "IX_Resorts_Name_Country",
+                name: "IX_Resorts_Name_Country_City",
                 table: "Resorts",
-                columns: new[] { "Name", "Country" },
+                columns: new[] { "Name", "Country", "City" },
                 unique: true);
 
             migrationBuilder.CreateIndex(

@@ -21,7 +21,8 @@ namespace DataLayer.Configurations
             builder.HasIndex(q => new
             {
                 q.Name,
-                q.Country
+                q.Country,
+                q.City
             }).IsUnique();
         }
     }

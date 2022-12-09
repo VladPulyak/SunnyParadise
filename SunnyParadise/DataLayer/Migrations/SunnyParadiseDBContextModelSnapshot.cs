@@ -43,14 +43,20 @@ namespace DataLayer.Migrations
                         .HasMaxLength(40)
                         .HasColumnType("nvarchar(40)");
 
+                    b.Property<double>("LuxPrice")
+                        .HasColumnType("float");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(40)
                         .HasColumnType("nvarchar(40)");
 
+                    b.Property<double>("StandartPrice")
+                        .HasColumnType("float");
+
                     b.HasKey("Id");
 
-                    b.HasIndex("Name", "Country")
+                    b.HasIndex("Name", "Country", "City")
                         .IsUnique();
 
                     b.ToTable("Hotels", (string)null);
@@ -107,6 +113,9 @@ namespace DataLayer.Migrations
                         .HasMaxLength(40)
                         .HasColumnType("nvarchar(40)");
 
+                    b.Property<int>("CountOfDays")
+                        .HasColumnType("int");
+
                     b.Property<string>("Country")
                         .IsRequired()
                         .HasMaxLength(40)
@@ -122,7 +131,7 @@ namespace DataLayer.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("Name", "Country")
+                    b.HasIndex("Name", "Country", "City")
                         .IsUnique();
 
                     b.ToTable("Resorts", (string)null);
@@ -164,6 +173,11 @@ namespace DataLayer.Migrations
                     b.Property<string>("Password")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Phone")
+                        .IsRequired()
+                        .HasMaxLength(40)
+                        .HasColumnType("nvarchar(40)");
 
                     b.Property<int>("Sex")
                         .HasColumnType("int");

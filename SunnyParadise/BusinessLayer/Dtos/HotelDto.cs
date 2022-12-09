@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Dtos
 {
-    internal class HotelDto
+	public class HotelDto
     {
         public string Name { get; set; }
         public string Country { get; set; }

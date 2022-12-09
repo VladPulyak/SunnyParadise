@@ -46,7 +46,7 @@ namespace DataLayer.Repositories
             await _context.SaveChangesAsync();
         }
 
-        public async void Update(int id, Order entity)
+        public async Task Update(int id, Order entity)
         {
             var order = await GetById(id);
             order.OrderId= entity.OrderId;

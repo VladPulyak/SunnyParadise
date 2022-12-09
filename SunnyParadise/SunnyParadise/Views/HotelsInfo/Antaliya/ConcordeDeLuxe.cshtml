@@ -1,0 +1,50 @@
+﻿<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <link href="/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body class="bd-placeholder-img-hotels">
+    <main>
+        <section class="py-5 text-center container">
+            <div class="row py-lg-5">
+                <div class="col-lg-6 col-md-8 mx-auto">
+                    <h1 class="fw-light" style="font-size:50px">Antalya, ConcordeDeLuxe </h1>
+                </div>
+                <p class="lead text-muted pt-3 font">
+                    In our quest for exceptional quality and service starting with our Concorde De Luxe Hotel inspired by the legendary Concorde airplane, Concorde Hotels & Resorts with its hotels in Antalya & Northern Cyprus is determined to carry the same level of quality & service to all its hotels in the future as in today.
+                    Price: Standart: $100 per night. Luxe: $160 per night
+                </p>
+                <p class="lead text-muted pt-3 font">
+                    Price: Standart: $100 per night. Luxe: $160 per night
+                </p>
+            </div>
+        </section>
+        <div class="row mb-3 text-center justify-content-center">
+            <div class="col-5 themed-grid-col">
+                <img src="~/images/ConcordeDeLuxe1.jpg" width="500" height="300" />
+            </div>
+            <div class="col-5 themed-grid-col">
+                <img src="~/images/ConcordeDeLuxe2.jpg" width="500" height="300" />
+            </div>
+        </div>
+        <div class="row mb-3 text-center justify-content-center">
+            <div class="col-5 themed-grid-col">
+                <img src="~/images/ConcordeDeLuxe3.jpg" width="500" height="300" />
+            </div>
+            <div class="col-5 themed-grid-col">
+                <img src="~/images/ConcordeDeLuxe4.jpg" width="500" height="300" />
+            </div>
+        </div>
+        <p class="lead text-muted pt-3 font py-3" style="text-align:center">
+            You can order a ticket <a asp-area="" asp-controller="AccountProfile" asp-action="Test">here</a>
+        </p>
+    </main>
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+            <li class="page-item"><a class="page-link custompagination" asp-action="LaraBarut" asp-controller="HotelsInfo">Previous</a></li>
+            <li class="page-item"><a class="page-link custompagination" asp-action="DelphinImperialHotel" asp-controller="HotelsInfo">Next</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
