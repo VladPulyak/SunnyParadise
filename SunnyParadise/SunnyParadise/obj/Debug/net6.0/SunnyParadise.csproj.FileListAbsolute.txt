@@ -784,3 +784,4 @@ D:\.NET projects\SunnyParadise\SunnyParadise\SunnyParadise\obj\Debug\net6.0\Sunn
 D:\.NET projects\SunnyParadise\SunnyParadise\SunnyParadise\obj\Debug\net6.0\ref\SunnyParadise.dll
 D:\.NET projects\SunnyParadise\SunnyParadise\SunnyParadise\bin\Debug\net6.0\Humanizer.dll
 D:\.NET projects\SunnyParadise\SunnyParadise\SunnyParadise\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\.NET projects\SunnyParadise\SunnyParadise\SunnyParadise\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

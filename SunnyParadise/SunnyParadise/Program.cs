@@ -1,3 +1,4 @@
+using BusinessLayer.Extensions;
 using DataLayer;
 using DataLayer.Entities;
 using DataLayer.Extensions;
@@ -16,10 +17,10 @@ namespace SunnyParadise
             .AddCookie(options =>
             {
                 options.LoginPath = "/Account/Login";
-                options.Cookie.Name = "Test";
+                options.Cookie.Name = "SunnyParadiseCookie";
             });
             builder.Services.AddControllersWithViews();
-            builder.Services.AddSunnyParadiseDBContext(builder.Configuration.GetConnectionString("DefaultConnection"));
+            builder.Services.AddServices(builder.Configuration.GetConnectionString("DefaultConnection"));
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

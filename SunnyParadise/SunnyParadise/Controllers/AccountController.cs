@@ -30,7 +30,7 @@ namespace SunnyParadise.Controllers
             var user = await _context.Users.SingleOrDefaultAsync(q => q.Login == model.Login && q.Password == model.Password);
             if (user != null)
             {
-                await Authenticate(model.Login);
+                await Authenticate(model.Login, $"{user.FirstName} {user.LastName}");
                 return RedirectToAction("Test", "AccountProfile");
             }
             else
@@ -66,7 +66,7 @@ namespace SunnyParadise.Controllers
                         Phone = model.Phone,
                     });
                     await _context.SaveChangesAsync();
-                    await Authenticate(model.Login);
+                    await Authenticate(model.Login,$"{model.FirstName} {model.LastName}");
                     return RedirectToAction("Home", "ResortsInfo");
                 }
                 else
@@ -76,16 +76,16 @@ namespace SunnyParadise.Controllers
             }
             return View(model);
         }
-        private async Task Authenticate(string userLogin)
+        private async Task Authenticate(string userLogin, string userFullName)
         {
             var claims = new List<Claim>
                 {
-                    new Claim(ClaimTypes.Name, userLogin)
+                    new Claim(ClaimTypes.Name, userLogin),
+                    new Claim(ClaimTypes.UserData, userFullName)
                 };
             var id = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+            var principal = new ClaimsPrincipal(id);
             await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(id));
-            ViewBag.UserName = id.Name;
-            ViewBag.IsAuthenticate = HttpContext.User.Identity.IsAuthenticated;
         }
         public async Task<IActionResult> Logout()
         {

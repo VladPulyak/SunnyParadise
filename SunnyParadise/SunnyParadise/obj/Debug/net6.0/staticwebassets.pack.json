@@ -81,6 +81,38 @@
       "PackagePath": "staticwebassets\\images\\Egypt-Hurhgada.jpg"
     },
     {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\avatar1.png",
+      "PackagePath": "staticwebassets\\images\\avatar1.png"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\avatar2.png",
+      "PackagePath": "staticwebassets\\images\\avatar2.png"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\avatar3.png",
+      "PackagePath": "staticwebassets\\images\\avatar3.png"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\avatar4.png",
+      "PackagePath": "staticwebassets\\images\\avatar4.png"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\avatar5.png",
+      "PackagePath": "staticwebassets\\images\\avatar5.png"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\avatar6.png",
+      "PackagePath": "staticwebassets\\images\\avatar6.png"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\avatar7.png",
+      "PackagePath": "staticwebassets\\images\\avatar7.png"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\avatar8.png",
+      "PackagePath": "staticwebassets\\images\\avatar8.png"
+    },
+    {
       "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\crete1.jpg",
       "PackagePath": "staticwebassets\\images\\crete1.jpg"
     },

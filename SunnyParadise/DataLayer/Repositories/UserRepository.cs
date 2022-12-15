@@ -49,7 +49,6 @@ namespace DataLayer.Repositories
         public async Task Update(int id, User entity)
         {
             var user = await GetById(id);
-            user.Id = entity.Id;
             user.FirstName = entity.FirstName;
             user.LastName = entity.LastName;
             user.Email = entity.Email;
@@ -57,6 +56,7 @@ namespace DataLayer.Repositories
             user.BirthDate = entity.BirthDate;
             user.Sex = entity.Sex;
             user.Phone = entity.Phone;
+            await Save();
         }
     }
 }

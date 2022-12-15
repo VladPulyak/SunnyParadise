@@ -99,10 +99,8 @@
                             @if (Context.User.Identity.IsAuthenticated)
                             {
                                 <li>
-                                    <div class="text-end justify-content-center margin">
-                                        <button type="button" class="btn btn-outline-light sign-up-button">
-                                            @Context.User.Identity.Name
-                                        </button>
+                                    <div class="authorizeUserName">
+                                            @Context.User.Identities.Single().Claims.ToList()[1].Value
                                     </div>
                                 </li>
                             }

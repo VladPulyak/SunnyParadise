@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataLayer.Repositories.Interfaces
 {
-    internal interface IRepository<TEntity>
+    public interface IRepository<TEntity>
         where TEntity : class
     {
         IQueryable<TEntity> GetAll();

@@ -144,3 +144,10 @@ btn-primary {
 .custompagination {
     background-color: #cbcbcba6;
 }
+
+.authorizeUserName {
+    margin-left: 6rem;
+    margin-top: 0.6rem;
+    padding: 10px;
+    background-color: black;
+}

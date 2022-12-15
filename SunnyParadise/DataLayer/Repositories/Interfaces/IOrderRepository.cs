@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DataLayer.Repositories.Interfaces
 {
-    internal interface IOrderRepository : IRepository<Order>
+    public interface IOrderRepository : IRepository<Order>
     {
     }
 }

@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "dS+WE+2JvlHwpYijVMSN69FMc3jEg+GKnSXhQc9txEf9QvdFsST512jzK0rSBcitWBzZbkOk2mMMJpYztR76YQ==",
+  "dgSpecHash": "tv48dUkC/wUnKzjBUoCYzU2vy9tnSMjK15Pgp4/6DOxaiZF35AwpMcDm0NRNbW0LJcWpRNjAA10gJZLOIHjoOw==",
   "success": true,
   "projectFilePath": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\BusinessLayer\\BusinessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
