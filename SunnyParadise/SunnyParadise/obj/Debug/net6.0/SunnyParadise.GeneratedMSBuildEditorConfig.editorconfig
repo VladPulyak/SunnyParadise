@@ -44,28 +44,68 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxzSW5mb1xBbnRhbGl5YVxMYXJhQmFydXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/HotelsInfo/Crete/Crete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxzSW5mb1xDcmV0ZVxDcmV0ZS5jc2h0bWw=
+[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/HotelsInfo/Crete/ChristinaBeach.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxzSW5mb1xDcmV0ZVxDaHJpc3RpbmFCZWFjaC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/HotelsInfo/Dubai/Dubai.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxzSW5mb1xEdWJhaVxEdWJhaS5jc2h0bWw=
+[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/HotelsInfo/Crete/CretaMaris.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxzSW5mb1xDcmV0ZVxDcmV0YU1hcmlzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/HotelsInfo/Hawaii/Hawaii.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxzSW5mb1xIYXdhaWlcSGF3YWlpLmNzaHRtbA==
+[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/HotelsInfo/Crete/KavosHotel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxzSW5mb1xDcmV0ZVxLYXZvc0hvdGVsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/HotelsInfo/Dubai/CaesarsPalace.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxzSW5mb1xEdWJhaVxDYWVzYXJzUGFsYWNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/HotelsInfo/Dubai/Mandarin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxzSW5mb1xEdWJhaVxNYW5kYXJpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/HotelsInfo/Dubai/TajExotica.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxzSW5mb1xEdWJhaVxUYWpFeG90aWNhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/HotelsInfo/Hawaii/Halepuna.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxzSW5mb1xIYXdhaWlcSGFsZXB1bmEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/HotelsInfo/Hawaii/KoloaLanding.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxzSW5mb1xIYXdhaWlcS29sb2FMYW5kaW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/HotelsInfo/Hawaii/TrumpInternational.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxzSW5mb1xIYXdhaWlcVHJ1bXBJbnRlcm5hdGlvbmFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/HotelsInfo/Home.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxzSW5mb1xIb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/HotelsInfo/Ibiza/Spain.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxzSW5mb1xJYml6YVxTcGFpbi5jc2h0bWw=
+[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/HotelsInfo/Ibiza/LuxIsla.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxzSW5mb1xJYml6YVxMdXhJc2xhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/HotelsInfo/Sharm/Egypt.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxzSW5mb1xTaGFybVxFZ3lwdC5jc2h0bWw=
+[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/HotelsInfo/Ibiza/OKUIbiza.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxzSW5mb1xJYml6YVxPS1VJYml6YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/HotelsInfo/Ibiza/RosellBoutique.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxzSW5mb1xJYml6YVxSb3NlbGxCb3V0aXF1ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/HotelsInfo/Sharm/AidaHotel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxzSW5mb1xTaGFybVxBaWRhSG90ZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/HotelsInfo/Sharm/BoutiqueHotel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxzSW5mb1xTaGFybVxCb3V0aXF1ZUhvdGVsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/HotelsInfo/Sharm/MagicWorld.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxzSW5mb1xTaGFybVxNYWdpY1dvcmxkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/ResortsInfo/Crete.cshtml]

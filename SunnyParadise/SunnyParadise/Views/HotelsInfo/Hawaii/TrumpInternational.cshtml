@@ -1,0 +1,57 @@
+﻿<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <link href="/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body class="bd-placeholder-img-hotels">
+    <main>
+        <section class="py-5 text-center container">
+            <div class="row py-lg-5">
+                <div class="col-lg-6 col-md-8 mx-auto">
+                    <h1 class="fw-light" style="font-size:50px">Hawaii, TrumpInternational </h1>
+                </div>
+                <p class="lead text-muted pt-3 font">
+                    Featuring a full-service spa and an outdoor pool facility with dining service, Trump International Hotel Waikiki is less than 5 minutes' walk from the beach. Free WiFi is available.
+
+                    The bright, elegant rooms offer a 55-inch flat-screen TV and a kitchen or kitchenette. An Italian marble bath with bathrobe and slippers is included. A washing machine tumble dryer are included in all suites. Suites offer an additional 43-inch flat-screen TV in the bedrooms.
+
+                    The Wai’olu lounge offers a variety of special drinks throughout the day, including a liquid breakfast.
+
+                    The Spa at Trump Waikiki features a selection of treatments using traditional Hawaiian plants and techniques. Guests can also enjoy the 24-hour fitness centre and the library.
+
+                    The Trump Waikiki Beach Walk is 3 minutes from the Waikiki Aquarium and 3.2 km from Ala Wai Golf Course.
+                </p>
+                <p class="lead text-muted pt-3 font">
+                    Price: Standart: $550 per night. Luxe: $700 per night
+                </p>
+            </div>
+        </section>
+        <div class="row mb-3 text-center justify-content-center">
+            <div class="col-5 themed-grid-col">
+                <img src="~/images/TrumpInternational1.jpg" width="500" height="300" />
+            </div>
+            <div class="col-5 themed-grid-col">
+                <img src="~/images/TrumpInternational2.jpg" width="500" height="300" />
+            </div>
+        </div>
+        <div class="row mb-3 text-center justify-content-center">
+            <div class="col-5 themed-grid-col">
+                <img src="~/images/TrumpInternational3.jpg" width="500" height="300" />
+            </div>
+            <div class="col-5 themed-grid-col">
+                <img src="~/images/TrumpInternational4.jpg" width="500" height="300" />
+            </div>
+        </div>
+        <p class="lead text-muted pt-3 font py-3" style="text-align:center">
+            You can order a ticket <a asp-area="" asp-controller="AccountProfile" asp-action="Test">here</a>
+        </p>
+    </main>
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+            <li class="page-item"><a class="page-link custompagination" asp-action="KoloaLanding" asp-controller="HotelsInfo">Previous</a></li>
+            <li class="page-item"><a class="page-link custompagination" asp-action="Halepuna" asp-controller="HotelsInfo">Next</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

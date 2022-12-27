@@ -20,26 +20,65 @@ namespace SunnyParadise.Controllers
         {
             return View("Antaliya/DelphinImperialHotel");
         }
-
-        public IActionResult Egypt()
+        public IActionResult AidaHotel()
         {
-            return View("Sharm/Egypt");
+            return View("Sharm/AidaHotel");
         }
-        public IActionResult Spain()
+        public IActionResult BoutiqueHotel()
         {
-            return View("Ibiza/Spain");
+            return View("Sharm/BoutiqueHotel");
         }
-        public IActionResult Hawaii()
+        public IActionResult MagicWorld()
         {
-            return View("Hawaii/Hawaii");
+            return View("Sharm/MagicWorld");
         }
-        public IActionResult Dubai()
+        public IActionResult OKUIbiza()
         {
-            return View("Dubai/Dubai");
+            return View("Ibiza/OKUIbiza");
         }
-        public IActionResult Crete()
+        public IActionResult RosellBoutique()
         {
-            return View("Crete/Crete");
+            return View("Ibiza/RosellBoutique");
+        }
+        public IActionResult LuxIsla()
+        {
+            return View("Ibiza/LuxIsla");
+        }
+        public IActionResult KoloaLanding()
+        {
+            return View("Hawaii/KoloaLanding");
+        }
+        public IActionResult TrumpInternational()
+        {
+            return View("Hawaii/TrumpInternational");
+        }
+        public IActionResult Halepuna()
+        {
+            return View("Hawaii/Halepuna");
+        }
+        public IActionResult CaesarsPalace()
+        {
+            return View("Dubai/CaesarsPalace");
+        }
+        public IActionResult Mandarin()
+        {
+            return View("Dubai/Mandarin");
+        }
+        public IActionResult TajExotica()
+        {
+            return View("Dubai/TajExotica");
+        }
+        public IActionResult KavosHotel()
+        {
+            return View("Crete/KavosHotel");
+        }
+        public IActionResult CretaMaris()
+        {
+            return View("Crete/CretaMaris");
+        }
+        public IActionResult ChristinaBeach()
+        {
+            return View("Crete/ChristinaBeach");
         }
     }
 }

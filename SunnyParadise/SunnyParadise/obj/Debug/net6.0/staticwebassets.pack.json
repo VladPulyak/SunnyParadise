@@ -45,6 +45,54 @@
       "PackagePath": "staticwebassets\\images\\Antaliya4.jpg"
     },
     {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\BoutiqueHotel1.jpg",
+      "PackagePath": "staticwebassets\\images\\BoutiqueHotel1.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\BoutiqueHotel2.jpg",
+      "PackagePath": "staticwebassets\\images\\BoutiqueHotel2.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\BoutiqueHotel3.jpg",
+      "PackagePath": "staticwebassets\\images\\BoutiqueHotel3.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\BoutiqueHotel4.jpg",
+      "PackagePath": "staticwebassets\\images\\BoutiqueHotel4.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\CaesarsPalace1.jpg",
+      "PackagePath": "staticwebassets\\images\\CaesarsPalace1.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\CaesarsPalace2.jpg",
+      "PackagePath": "staticwebassets\\images\\CaesarsPalace2.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\CaesarsPalace3.jpg",
+      "PackagePath": "staticwebassets\\images\\CaesarsPalace3.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\CaesarsPalace4.jpg",
+      "PackagePath": "staticwebassets\\images\\CaesarsPalace4.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\ChristinaBeach1.jpg",
+      "PackagePath": "staticwebassets\\images\\ChristinaBeach1.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\ChristinaBeach2.jpg",
+      "PackagePath": "staticwebassets\\images\\ChristinaBeach2.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\ChristinaBeach3.jpg",
+      "PackagePath": "staticwebassets\\images\\ChristinaBeach3.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\ChristinaBeach4.jpg",
+      "PackagePath": "staticwebassets\\images\\ChristinaBeach4.jpg"
+    },
+    {
       "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\ConcordeDeLuxe1.jpg",
       "PackagePath": "staticwebassets\\images\\ConcordeDeLuxe1.jpg"
     },
@@ -59,6 +107,22 @@
     {
       "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\ConcordeDeLuxe4.jpg",
       "PackagePath": "staticwebassets\\images\\ConcordeDeLuxe4.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\CretaMaris1.jpg",
+      "PackagePath": "staticwebassets\\images\\CretaMaris1.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\CretaMaris2.jpg",
+      "PackagePath": "staticwebassets\\images\\CretaMaris2.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\CretaMaris3.jpg",
+      "PackagePath": "staticwebassets\\images\\CretaMaris3.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\CretaMaris4.jpg",
+      "PackagePath": "staticwebassets\\images\\CretaMaris4.jpg"
     },
     {
       "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\DelphinImperialHotel1.jpg",
@@ -79,6 +143,166 @@
     {
       "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\Egypt-Hurhgada.jpg",
       "PackagePath": "staticwebassets\\images\\Egypt-Hurhgada.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\Halepuna1.jpg",
+      "PackagePath": "staticwebassets\\images\\Halepuna1.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\Halepuna2.jpg",
+      "PackagePath": "staticwebassets\\images\\Halepuna2.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\Halepuna3.jpg",
+      "PackagePath": "staticwebassets\\images\\Halepuna3.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\Halepuna4.jpg",
+      "PackagePath": "staticwebassets\\images\\Halepuna4.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\KavosHotel1.jpg",
+      "PackagePath": "staticwebassets\\images\\KavosHotel1.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\KavosHotel2.jpg",
+      "PackagePath": "staticwebassets\\images\\KavosHotel2.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\KavosHotel3.jpg",
+      "PackagePath": "staticwebassets\\images\\KavosHotel3.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\KavosHotel4.jpg",
+      "PackagePath": "staticwebassets\\images\\KavosHotel4.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\KoloaLanding1.jpg",
+      "PackagePath": "staticwebassets\\images\\KoloaLanding1.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\KoloaLanding2.jpg",
+      "PackagePath": "staticwebassets\\images\\KoloaLanding2.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\KoloaLanding3.jpg",
+      "PackagePath": "staticwebassets\\images\\KoloaLanding3.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\KoloaLanding4.jpg",
+      "PackagePath": "staticwebassets\\images\\KoloaLanding4.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\LuxIsla1.jpg",
+      "PackagePath": "staticwebassets\\images\\LuxIsla1.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\LuxIsla2.jpg",
+      "PackagePath": "staticwebassets\\images\\LuxIsla2.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\LuxIsla3.jpg",
+      "PackagePath": "staticwebassets\\images\\LuxIsla3.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\LuxIsla4.jpg",
+      "PackagePath": "staticwebassets\\images\\LuxIsla4.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\MagicWorld1.jpg",
+      "PackagePath": "staticwebassets\\images\\MagicWorld1.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\MagicWorld2.jpg",
+      "PackagePath": "staticwebassets\\images\\MagicWorld2.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\MagicWorld3.jpg",
+      "PackagePath": "staticwebassets\\images\\MagicWorld3.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\MagicWorld4.jpg",
+      "PackagePath": "staticwebassets\\images\\MagicWorld4.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\Mandarin1.jpg",
+      "PackagePath": "staticwebassets\\images\\Mandarin1.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\Mandarin2.jpg",
+      "PackagePath": "staticwebassets\\images\\Mandarin2.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\Mandarin3.jpg",
+      "PackagePath": "staticwebassets\\images\\Mandarin3.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\Mandarin4.jpg",
+      "PackagePath": "staticwebassets\\images\\Mandarin4.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\OKUIbiza1.jpg",
+      "PackagePath": "staticwebassets\\images\\OKUIbiza1.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\OKUIbiza2.jpg",
+      "PackagePath": "staticwebassets\\images\\OKUIbiza2.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\OKUIbiza3.jpg",
+      "PackagePath": "staticwebassets\\images\\OKUIbiza3.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\OKUIbiza4.jpg",
+      "PackagePath": "staticwebassets\\images\\OKUIbiza4.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\RosellBoutique1.jpg",
+      "PackagePath": "staticwebassets\\images\\RosellBoutique1.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\RosellBoutique2.jpg",
+      "PackagePath": "staticwebassets\\images\\RosellBoutique2.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\RosellBoutique3.jpg",
+      "PackagePath": "staticwebassets\\images\\RosellBoutique3.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\RosellBoutique4.jpg",
+      "PackagePath": "staticwebassets\\images\\RosellBoutique4.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\TajExotica1.jpg",
+      "PackagePath": "staticwebassets\\images\\TajExotica1.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\TajExotica2.jpg",
+      "PackagePath": "staticwebassets\\images\\TajExotica2.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\TajExotica3.jpg",
+      "PackagePath": "staticwebassets\\images\\TajExotica3.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\TajExotica4.jpg",
+      "PackagePath": "staticwebassets\\images\\TajExotica4.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\TrumpInternational1.jpg",
+      "PackagePath": "staticwebassets\\images\\TrumpInternational1.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\TrumpInternational2.jpg",
+      "PackagePath": "staticwebassets\\images\\TrumpInternational2.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\TrumpInternational3.jpg",
+      "PackagePath": "staticwebassets\\images\\TrumpInternational3.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\TrumpInternational4.jpg",
+      "PackagePath": "staticwebassets\\images\\TrumpInternational4.jpg"
     },
     {
       "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\avatar1.png",
@@ -207,6 +431,22 @@
     {
       "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\sharm-el-sheikh4.jpg",
       "PackagePath": "staticwebassets\\images\\sharm-el-sheikh4.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\sharm1.jpg",
+      "PackagePath": "staticwebassets\\images\\sharm1.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\sharm2.jpg",
+      "PackagePath": "staticwebassets\\images\\sharm2.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\sharm3.jpg",
+      "PackagePath": "staticwebassets\\images\\sharm3.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\sharm4.jpg",
+      "PackagePath": "staticwebassets\\images\\sharm4.jpg"
     },
     {
       "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\state_95f7c5c6fed.jpg",

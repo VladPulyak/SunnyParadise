@@ -1,0 +1,55 @@
+﻿<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <link href="/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body class="bd-placeholder-img-hotels">
+    <main>
+        <section class="py-5 text-center container">
+            <div class="row py-lg-5">
+                <div class="col-lg-6 col-md-8 mx-auto">
+                    <h1 class="fw-light" style="font-size:50px">Dubai, CaesarsPalace </h1>
+                </div>
+                <p class="lead text-muted pt-3 font">
+                    The modern and stylish Caesars Palace Dubai luxury resort is located on Bluewaters Island overlooking the clear waters of the Arabian Gulf. The hotel is located on a beautiful 1.7 km long promenade. It features a 500-meter private beach and five temperature-controlled pools.
+
+                    This island resort is conveniently located close to key business and leisure facilities popular with both domestic and international tourists. Caesars Palace Dubai provides an escape from the ordinary and an unforgettable experience in a relaxed and sophisticated environment.
+
+                    Rooms, suites and apartments are decorated in an elegant modern style. Guests have a private balcony. Guests will enjoy an individual approach and exceptional service.
+
+                    The hotel offers entertainment activities. Guests can enjoy the beautiful Qua Spa and a selection of open-air restaurants run by internationally renowned chefs.
+                </p>
+                <p class="lead text-muted pt-3 font">
+                    Price: Standart: $420 per night. Luxe: $600 per night
+                </p>
+            </div>
+        </section>
+        <div class="row mb-3 text-center justify-content-center">
+            <div class="col-5 themed-grid-col">
+                <img src="~/images/CaesarsPalace1.jpg" width="500" height="300" />
+            </div>
+            <div class="col-5 themed-grid-col">
+                <img src="~/images/CaesarsPalace2.jpg" width="500" height="300" />
+            </div>
+        </div>
+        <div class="row mb-3 text-center justify-content-center">
+            <div class="col-5 themed-grid-col">
+                <img src="~/images/CaesarsPalace3.jpg" width="500" height="300" />
+            </div>
+            <div class="col-5 themed-grid-col">
+                <img src="~/images/CaesarsPalace4.jpg" width="500" height="300" />
+            </div>
+        </div>
+        <p class="lead text-muted pt-3 font py-3" style="text-align:center">
+            You can order a ticket <a asp-area="" asp-controller="AccountProfile" asp-action="Test">here</a>
+        </p>
+    </main>
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+            <li class="page-item"><a class="page-link custompagination" asp-action="TajExotica" asp-controller="HotelsInfo">Previous</a></li>
+            <li class="page-item"><a class="page-link custompagination" asp-action="Mandarin" asp-controller="HotelsInfo">Next</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
