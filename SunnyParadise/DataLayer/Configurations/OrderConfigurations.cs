@@ -15,7 +15,7 @@ namespace DataLayer.Configurations
         {
             builder.ToTable("Orders");
             builder.HasKey(q=>q.OrderId);
-            builder.HasOne(q => q.User).WithOne(q => q.Order).HasForeignKey<Order>(q => q.UserId);
+            builder.HasOne(q => q.User).WithMany(q => q.Orders).HasForeignKey(q => q.UserId);
             builder.HasOne(q => q.Hotel).WithMany(q => q.Orders).HasForeignKey(q => q.HotelId);
             builder.HasOne(q => q.Resort).WithMany(q => q.Orders).HasForeignKey(q => q.ResortId);
         }

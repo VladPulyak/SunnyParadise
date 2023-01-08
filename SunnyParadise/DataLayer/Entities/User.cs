@@ -18,6 +18,6 @@ namespace DataLayer.Entities
         public DateTime BirthDate { get; set; }
         public int Age { get; set; }
         public string Phone { get; set; }
-        public Order Order { get; set; }
+        public ICollection<Order> Orders { get; set; }
     }
 }

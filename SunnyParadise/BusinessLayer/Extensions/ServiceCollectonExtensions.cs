@@ -1,4 +1,7 @@
 ﻿using BusinessLayer.Interfaces;
+using BusinessLayer.Services.HotelService;
+using BusinessLayer.Services.OrderService;
+using BusinessLayer.Services.ResortService;
 using BusinessLayer.Services.UserService;
 using DataLayer.Extensions;
 using Microsoft.Extensions.DependencyInjection;
@@ -17,6 +20,9 @@ namespace BusinessLayer.Extensions
         {
             services.AddSunnyParadiseDBContext(connectionString);
             services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IOrderService, OrderService>();
+            services.AddScoped<IHotelService, HotelService>();
+            services.AddScoped<IResortService, ResortService>();
             services.AddAutoMapper(Assembly.GetCallingAssembly(),
                        Assembly.GetExecutingAssembly());
             return services;

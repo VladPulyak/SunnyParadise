@@ -15,12 +15,10 @@ namespace DataLayer.Configurations
         {
             builder.ToTable("Resorts");
             builder.HasKey(q => q.Id);
-            builder.Property(q => q.Name).HasMaxLength(40).IsRequired();
             builder.Property(q => q.Country).HasMaxLength(40).IsRequired();
             builder.Property(q => q.City).HasMaxLength(40).IsRequired();
             builder.HasIndex(q => new
             {
-                q.Name,
                 q.Country,
                 q.City
             }).IsUnique();

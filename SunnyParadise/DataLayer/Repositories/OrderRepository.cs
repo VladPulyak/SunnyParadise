@@ -32,7 +32,7 @@ namespace DataLayer.Repositories
         }
 
         public IQueryable<Order> GetAll()
-        { 
+        {
             return _context.Orders.AsQueryable();
         }
 
@@ -49,11 +49,11 @@ namespace DataLayer.Repositories
         public async Task Update(int id, Order entity)
         {
             var order = await GetById(id);
-            order.OrderId= entity.OrderId;
+            order.OrderId = entity.OrderId;
             order.ResortId = entity.ResortId;
             order.UserId = entity.UserId;
-            order.HotelId= entity.HotelId;
-            order.DateOfCreating= entity.DateOfCreating;
+            order.HotelId = entity.HotelId;
+            order.DateOfCreating = entity.DateOfCreating;
         }
     }
 }

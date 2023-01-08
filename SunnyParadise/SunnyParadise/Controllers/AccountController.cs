@@ -31,7 +31,7 @@ namespace SunnyParadise.Controllers
             if (user != null)
             {
                 await Authenticate(model.Login, $"{user.FirstName} {user.LastName}");
-                return RedirectToAction("Test", "AccountProfile");
+                return RedirectToAction("Profile", "AccountProfile");
             }
             else
             {

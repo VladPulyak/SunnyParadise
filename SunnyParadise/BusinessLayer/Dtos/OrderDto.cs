@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DataLayer.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,12 @@ namespace BusinessLayer.Dtos
 {
 	public class OrderDto
     {
-        public DateTime DateOfCreating { get; set; }
+        public int OrderId { get; set; }
+        public int? UserId { get; set; }
+        public int? ResortId { get; set; }
+        public int? HotelId { get; set; }
+        public DateTime? DateOfCreating { get; set; }
+        public DateTime? DateOfTrip { get; set; }
+
     }
 }

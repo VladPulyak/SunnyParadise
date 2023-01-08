@@ -24,7 +24,7 @@ namespace DataLayer.Repositories
         public async Task Delete(int id)
         {
             var resort = await GetById(id);
-            if(resort == null)
+            if (resort == null)
             {
                 throw new NullReferenceException("Resort not found");
             }
@@ -50,10 +50,8 @@ namespace DataLayer.Repositories
         {
             var resort = await GetById(id);
             resort.Id = entity.Id;
-            resort.Name= entity.Name;
-            resort.Price= entity.Price;
-            resort.Country= entity.Country;
-            resort.City= entity.City;
+            resort.Country = entity.Country;
+            resort.City = entity.City;
         }
     }
 }

@@ -5,6 +5,90 @@
       "PackagePath": "staticwebassets\\SunnyParadise.bundle.scp.css"
     },
     {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\assets\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\assets\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\assets\\css\\styles.css",
+      "PackagePath": "staticwebassets\\assets\\css\\styles.css"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\assets\\fonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\assets\\fonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\assets\\fonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\assets\\fonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\assets\\fonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\assets\\fonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\assets\\fonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\assets\\fonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\assets\\fonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\assets\\fonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\assets\\fonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\assets\\fonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\assets\\fonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\assets\\fonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\assets\\fonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\assets\\fonts\\fontawesome-all.min.css",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-all.min.css"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\assets\\img\\successful.png",
+      "PackagePath": "staticwebassets\\assets\\img\\successful.png"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\assets\\js\\bs-init.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bs-init.js"
+    },
+    {
       "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -451,6 +535,10 @@
     {
       "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\state_95f7c5c6fed.jpg",
       "PackagePath": "staticwebassets\\images\\state_95f7c5c6fed.jpg"
+    },
+    {
+      "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\successful.png",
+      "PackagePath": "staticwebassets\\images\\successful.png"
     },
     {
       "Id": "D:\\.NET projects\\SunnyParadise\\SunnyParadise\\SunnyParadise\\wwwroot\\images\\Без названия.jpg",

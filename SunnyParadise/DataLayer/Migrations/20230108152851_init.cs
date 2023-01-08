@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace DataLayer.Migrations
 {
-    public partial class Init : Migration
+    public partial class init : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -33,11 +33,8 @@ namespace DataLayer.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(type: "nvarchar(40)", maxLength: 40, nullable: false),
                     Country = table.Column<string>(type: "nvarchar(40)", maxLength: 40, nullable: false),
-                    City = table.Column<string>(type: "nvarchar(40)", maxLength: 40, nullable: false),
-                    Price = table.Column<float>(type: "real", nullable: false),
-                    CountOfDays = table.Column<int>(type: "int", nullable: false)
+                    City = table.Column<string>(type: "nvarchar(40)", maxLength: 40, nullable: false)
                 },
                 constraints: table =>
                 {
@@ -119,13 +116,12 @@ namespace DataLayer.Migrations
             migrationBuilder.CreateIndex(
                 name: "IX_Orders_UserId",
                 table: "Orders",
-                column: "UserId",
-                unique: true);
+                column: "UserId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Resorts_Name_Country_City",
+                name: "IX_Resorts_Country_City",
                 table: "Resorts",
-                columns: new[] { "Name", "Country", "City" },
+                columns: new[] { "Country", "City" },
                 unique: true);
 
             migrationBuilder.CreateIndex(

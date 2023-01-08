@@ -21,7 +21,7 @@ btn-primary {
 }
 
 .font {
-    font-size: 26px;
+    font-size: 26px !important;
     padding-left: 10px;
 }
 
@@ -98,7 +98,7 @@ btn-primary {
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
-    background-color: #aabd6c;
+    background-color: #ede68e;
 }
 
 
@@ -150,4 +150,9 @@ btn-primary {
     margin-top: 0.6rem;
     padding: 10px;
     background-color: black;
+}
+
+.fontprice{
+    font-size: 35px;
+    font-style: italic;
 }

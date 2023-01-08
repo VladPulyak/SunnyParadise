@@ -19,7 +19,7 @@ namespace SunnyParadise
                 options.LoginPath = "/Account/Login";
                 options.Cookie.Name = "SunnyParadiseCookie";
             });
-            builder.Services.AddControllersWithViews();
+            builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
             builder.Services.AddServices(builder.Configuration.GetConnectionString("DefaultConnection"));
             var app = builder.Build();
 
@@ -37,6 +37,7 @@ namespace SunnyParadise
 
             app.UseAuthentication();
             app.UseAuthorization();
+
 
             app.MapControllerRoute(
                 name: "default",

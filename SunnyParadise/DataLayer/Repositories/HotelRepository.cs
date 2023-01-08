@@ -53,7 +53,7 @@ namespace DataLayer.Repositories
             hotel.Name = entity.Name;
             hotel.CountOfRooms = entity.CountOfRooms;
             hotel.Country = entity.Country;
-            hotel.City= entity.City;
+            hotel.City = entity.City;
         }
     }
 }

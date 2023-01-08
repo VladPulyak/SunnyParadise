@@ -24,7 +24,7 @@ namespace DataLayer.Repositories
         public async Task Delete(int id)
         {
             var user = await GetById(id);
-            if(user == null)
+            if (user == null)
             {
                 throw new NullReferenceException("User not found");
             }
