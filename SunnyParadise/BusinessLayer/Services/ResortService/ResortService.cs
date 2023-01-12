@@ -23,15 +23,17 @@ namespace BusinessLayer.Services.ResortService
             _mapper = mapper;
         }
 
-        public Task AddResort(ResortDto resort)
+        public async Task AddResort(ResortDto resort)
         {
             var mappingResort = _mapper.Map<Resort>(resort);
-            return _resortRepository.Add(mappingResort);
+            await _resortRepository.Add(mappingResort);
+            await _resortRepository.Save();
         }
 
-        public Task DeleteResort(int id)
+        public async Task DeleteResort(int id)
         {
-            return _resortRepository.Delete(id);
+            await _resortRepository.Delete(id);
+            await _resortRepository.Save();
         }
 
         public async Task<ResortDto> GetResort(int id)
@@ -45,10 +47,11 @@ namespace BusinessLayer.Services.ResortService
             return await _resortRepository.GetAll().ProjectTo<ResortDto>(_mapper.ConfigurationProvider).ToListAsync();
         }
 
-        public Task UpdateResort(int id, ResortDto resort)
+        public async Task UpdateResort(int id, ResortDto resort)
         {
             var mappingResort = _mapper.Map<Resort>(resort);
-            return _resortRepository.Update(id, mappingResort);
+            await _resortRepository.Update(id, mappingResort);
+            await _resortRepository.Save();
         }
     }
 }

@@ -23,15 +23,17 @@ namespace BusinessLayer.Services.OrderService
             _mapper = mapper;
         }
 
-        public Task AddOrder(OrderDto order)
+        public async Task AddOrder(OrderDto order)
         {
             var mappingOrder = _mapper.Map<Order>(order);
-            return _orderRepository.Add(mappingOrder);
+            await _orderRepository.Add(mappingOrder);
+            await _orderRepository.Save();
         }
 
-        public Task DeteleOrder(int id)
+        public async Task DeteleOrder(int id)
         {
-            return _orderRepository.Delete(id);
+            await _orderRepository.Delete(id);
+            await _orderRepository.Save();
         }
 
         public async Task<OrderDto> GetOrder(int id)
@@ -45,10 +47,11 @@ namespace BusinessLayer.Services.OrderService
             return await _orderRepository.GetAll().ProjectTo<OrderDto>(_mapper.ConfigurationProvider).ToListAsync();
         }
 
-        public Task UpdateOrder(int id, OrderDto order)
+        public async Task UpdateOrder(int id, OrderDto order)
         {
             var mappingOrder = _mapper.Map<Order>(order);
-            return _orderRepository.Update(id, mappingOrder);
+            await _orderRepository.Update(id, mappingOrder);
+            await _orderRepository.Save();
         }
     }
 }

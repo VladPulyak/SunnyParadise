@@ -7,15 +7,19 @@ using Microsoft.EntityFrameworkCore;
 using SunnyParadise.Models;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
+using BusinessLayer.Interfaces;
+using DataLayer.Repositories.Interfaces;
 
 namespace SunnyParadise.Controllers
 {
     public class AccountController : Controller
     {
         private readonly SunnyParadiseDBContext _context;
-        public AccountController(SunnyParadiseDBContext context)
+        private readonly IUserRepository _userRepository;
+        public AccountController(SunnyParadiseDBContext context,IUserRepository userRepository)
         {
             _context = context;
+            _userRepository = userRepository;
         }
 
         [HttpGet]
@@ -50,10 +54,10 @@ namespace SunnyParadise.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = await _context.Users.SingleOrDefaultAsync(q => q.Login == model.Login && q.Password == model.Password);
-                if (user == null)
+                var serchingUser = await _context.Users.SingleOrDefaultAsync(q => q.Login == model.Login && q.Password == model.Password);
+                if (serchingUser == null)
                 {
-                    await _context.Users.AddAsync(new User
+                    var user = new User
                     {
                         Login = model.Login,
                         Password = model.Password,
@@ -64,8 +68,9 @@ namespace SunnyParadise.Controllers
                         BirthDate = model.BirthDate,
                         Sex = model.Sex,
                         Phone = model.Phone,
-                    });
-                    await _context.SaveChangesAsync();
+                    };
+                    await _userRepository.Add(user);
+                    await _userRepository.Save();
                     await Authenticate(model.Login,$"{model.FirstName} {model.LastName}");
                     return RedirectToAction("Home", "ResortsInfo");
                 }

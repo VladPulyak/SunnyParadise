@@ -29,9 +29,10 @@ namespace BusinessLayer.Services.HotelService
             await _hotelRepository.Save();
         }
 
-        public Task DeleteHotel(int id)
+        public async Task DeleteHotel(int id)
         {
-            return _hotelRepository.Delete(id);
+            await _hotelRepository.Delete(id);
+            await _hotelRepository.Save();
         }
 
         public async Task<HotelDto> GetHotel(int id)
@@ -45,10 +46,11 @@ namespace BusinessLayer.Services.HotelService
             return await _hotelRepository.GetAll().ProjectTo<HotelDto>(_mapper.ConfigurationProvider).ToListAsync();
         }
 
-        public Task UpdateHotel(int id, HotelDto hotel)
+        public async Task UpdateHotel(int id, HotelDto hotel)
         {
             var mappingHotel = _mapper.Map<Hotel>(hotel);
-            return _hotelRepository.Update(id, mappingHotel);
+            await _hotelRepository.Update(id, mappingHotel);
+            await _hotelRepository.Save();
         }
     }
 }

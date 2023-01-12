@@ -26,7 +26,7 @@ namespace DataLayer.Repositories
             var order = await GetById(id);
             if (order == null)
             {
-                throw new NullReferenceException("");
+                throw new NullReferenceException("Oder not found");
             }
             _context.Orders.Remove(order);
         }
@@ -48,12 +48,7 @@ namespace DataLayer.Repositories
 
         public async Task Update(int id, Order entity)
         {
-            var order = await GetById(id);
-            order.OrderId = entity.OrderId;
-            order.ResortId = entity.ResortId;
-            order.UserId = entity.UserId;
-            order.HotelId = entity.HotelId;
-            order.DateOfCreating = entity.DateOfCreating;
+            _context.Entry(entity).State = EntityState.Modified;
         }
     }
 }

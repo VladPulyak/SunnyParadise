@@ -48,10 +48,7 @@ namespace DataLayer.Repositories
 
         public async Task Update(int id, Resort entity)
         {
-            var resort = await GetById(id);
-            resort.Id = entity.Id;
-            resort.Country = entity.Country;
-            resort.City = entity.City;
+            _context.Entry(entity).State = EntityState.Modified;
         }
     }
 }

@@ -56,7 +56,6 @@ namespace DataLayer.Repositories
             user.BirthDate = entity.BirthDate;
             user.Sex = entity.Sex;
             user.Phone = entity.Phone;
-            await Save();
         }
     }
 }

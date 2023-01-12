@@ -70,6 +70,9 @@ namespace DataLayer.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("OrderId"), 1L, 1);
 
+                    b.Property<int>("CountOfDays")
+                        .HasColumnType("int");
+
                     b.Property<DateTime?>("DateOfCreating")
                         .HasColumnType("datetime2");
 

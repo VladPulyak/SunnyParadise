@@ -22,14 +22,17 @@ namespace BusinessLayer.Services.UserService
             _userRepository = userRepository;
             _mapper = mapper;
         }
-        public Task<UserDto> AddUser(UserDto user)
+        public async Task AddUser(UserDto user)
         {
-            throw new NotImplementedException();
+            var mappingUser = _mapper.Map<User>(user);
+            await _userRepository.Add(mappingUser);
+            await _userRepository.Save();
         }
 
-        public Task DeleteUser(int id)
+        public async Task DeleteUser(int id)
         {
-            throw new NotImplementedException();
+            await _userRepository.Delete(id);
+            await _userRepository.Save();
         }
 
         public async Task<UserDto> GetUser(int id)
@@ -47,6 +50,7 @@ namespace BusinessLayer.Services.UserService
         {
             var mappingUser = _mapper.Map<User>(user);
             await _userRepository.Update(id, mappingUser);
+            await _userRepository.Save();
         }
     }
 }

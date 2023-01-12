@@ -11,7 +11,7 @@ namespace BusinessLayer.Interfaces
 	{
 		Task<List<UserDto>> GetUsers();
 		Task<UserDto> GetUser(int id);
-		Task<UserDto> AddUser(UserDto user);
+		Task AddUser(UserDto user);
 		Task UpdateUser(int id, UserDto user);
 		Task DeleteUser(int id);
 	}

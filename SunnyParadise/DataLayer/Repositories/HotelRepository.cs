@@ -26,7 +26,7 @@ namespace DataLayer.Repositories
             var hotel = await GetById(id);
             if (hotel is null)
             {
-                throw new NullReferenceException("Hotel is null");
+                throw new NullReferenceException("Hotel not found");
             }
             _context.Hotels.Remove(hotel);
         }
@@ -48,12 +48,7 @@ namespace DataLayer.Repositories
 
         public async Task Update(int id, Hotel entity)
         {
-            var hotel = await GetById(id);
-            hotel.Id = entity.Id;
-            hotel.Name = entity.Name;
-            hotel.CountOfRooms = entity.CountOfRooms;
-            hotel.Country = entity.Country;
-            hotel.City = entity.City;
+            _context.Entry(entity).State = EntityState.Modified;
         }
     }
 }

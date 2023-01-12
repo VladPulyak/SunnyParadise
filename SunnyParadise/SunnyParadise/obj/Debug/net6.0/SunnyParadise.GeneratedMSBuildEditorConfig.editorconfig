@@ -20,6 +20,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFByb2ZpbGVcQWRkSG90ZWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/AccountProfile/AddResort.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFByb2ZpbGVcQWRkUmVzb3J0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/.NET projects/SunnyParadise/SunnyParadise/SunnyParadise/Views/AccountProfile/ChangeProfile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFByb2ZpbGVcQ2hhbmdlUHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
