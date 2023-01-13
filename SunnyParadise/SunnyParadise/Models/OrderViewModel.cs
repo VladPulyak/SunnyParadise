@@ -2,6 +2,7 @@
 {
     public class OrderViewModel
     {
+        public int OrderId { get; set; }
         public string UserEmail { get; set; }
         public string Country { get; set; }
         public string City { get; set; }

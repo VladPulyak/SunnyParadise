@@ -90,6 +90,7 @@ namespace SunnyParadise.Controllers
                 {
                     listWithOrderViewModels.Add(new OrderViewModel
                     {
+                        OrderId= orderDto.OrderId,
                         UserEmail = HttpContext.User.Identity.Name,
                         CountOfDays = orderDto.CountOfDays,
                         DateOfCreating = orderDto.DateOfCreating,
@@ -124,6 +125,11 @@ namespace SunnyParadise.Controllers
         {
             await _resortService.AddResort(resort);
             return View();
+        }
+        public async Task<IActionResult> CancelOrder(int orderId)
+        {
+            await _orderService.DeteleOrder(orderId);
+            return RedirectToAction("GetOrders", "AccountProfile");
         }
     }
 }

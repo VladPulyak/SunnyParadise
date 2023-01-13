@@ -7,6 +7,7 @@
                 <table class="table table-hover">
                     <thead>
                         <tr>
+                            <th>OrderId</th>
                             <th>UserEmail</th>
                             <th>Country</th>
                             <th>City</th>
@@ -20,6 +21,7 @@
                         @foreach (var order in Model)
                         {
                             <tr>
+                                <td>@order.OrderId</td>
                                 <td>@order.UserEmail</td>
                                 <td>@order.Country</td>
                                 <td>@order.City</td>
@@ -27,18 +29,17 @@
                                 <td>@order.CountOfDays</td>
                                 <td>@order.DateOfCreating</td>
                                 <td>@order.DateOfTrip</td>
-                                <td><button class="btn btn-primary" type="button" style="background: var(--bs-red);" data-bs-target="#toast-1" data-bs-toggle="toast">Cancel</button></td>
+                                <td>
+                                    <form method="post" asp-action="CancelOrder" asp-controller="AccountProfile">
+                                        <input type="hidden" value="@order.OrderId" name="orderId">
+                                        <button class="btn btn-primary" type="submit" style="background: var(--bs-red);">Cancel</button>
+                                    </form>
+                                </td>
                             </tr>
                         }
 
                     </tbody>
                 </table>
-            </div>
-        </div>
-        <div class="toast fade bottom-0 end-0 hide" role="alert" id="toast-1" style="position: fixed;margin: 30px;background: #d0e745;border-radius: 20px;border-width: 1px;border-color: var(--bs-link-hover-color);">
-            <div class="toast-header" style="background: #d0e745;border-radius: 20px;font-size: 15px;border-width: 2px;border-color: rgba(0,0,0,0.41);"><i class="fas fa-check" style="font-size: 20px;padding-right: 5px;"></i><strong class="me-auto" style="font-size: 18px;">Order calcellation</strong><button class="btn-close ms-2 mb-1 close" data-bs-dismiss="toast"></button></div>
-            <div class="toast-body" role="alert">
-                <p class="d-flex" style="font-size: 20px;">Successful! Order is canceled!</p>
             </div>
         </div>
         <script src="~/assets/bootstrap/js/bootstrap.min.js"></script>
