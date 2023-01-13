@@ -2,7 +2,6 @@
 @{
     var hotels = ViewData["Hotels"] as List<HotelDto>;
     var resorts = ViewData["Resorts"] as List<ResortDto>;
-    int counter = 0;
 }
 <head>
     <meta charset="utf-8">
@@ -26,17 +25,6 @@
                                 <option value=@hotel.Name>@($"{hotel.Name}")</option>
                             }
                         </select><label class="form-label">Enter hotel name&nbsp;</label>
-                    </div>
-                </div>
-                <div class="input-group" style="margin-bottom: 7px; height: 60px;">
-                    <span class="d-flex justify-content-center input-group-text" style="width: 80.4062px;min-width: 80.4062px;max-width: 80.4062px; font-style:italic">Resorts</span>
-                    <div class="form-floating">
-                        <select class="form-select" style="height: 60px">
-                            @foreach (var resort in resorts)
-                            {
-                                <option value=@counter++>@($"{resort.Country}, {resort.City}")</option>
-                            }
-                        </select><label class="form-label">Enter resort name&nbsp;</label>
                     </div>
                 </div>
                 <div class="input-group" style="margin-bottom: 7px; height: 60px">
@@ -63,13 +51,18 @@
                 </div>
                 <div class="input-group" style="margin-bottom: 7px;height: 60px;">
                     <span class="d-flex justify-content-center input-group-text" style="width: 80.4062px;min-width: 80.4062px;max-width: 80.4062px;height: 60px; font-style:italic">Number<br />of days</span>
-                    <div class="form-floating" style="height: 60px;"><input asp-for="CountOfDays" class="form-control" type="number" /><label class="form-label">Enter number of days</label></div>
+                    <div class="form-floating" style="height: 60px;"><input asp-for="CountOfDays" class="form-control" type="number" /><label class="form-label">Enter number of days</label>
+                    </div>
                 </div>
                 <div class="input-group" style="margin-bottom: 7px; height: 60px">
                     <span class="d-flex justify-content-center input-group-text" style="min-width: 80.4062px; font-style:italic">Date</span>
-                    <div class="form-floating"><input asp-for="DateOfTrip" class="form-control" type="date" style="height: 60px"><label class="form-label">Enter date of travelling&nbsp;</label></div>
+                    <div class="form-floating"><input asp-for="DateOfTrip" class="form-control" type="date" style="height: 60px"><label class="form-label">Enter date of travelling&nbsp;</label>
+                    </div>
                 </div><button class="btn btn-primary" type="submit" style="background: var(--bs-indigo);border-width: 0px;margin-bottom: 7px; height:50px; min-width: 80.4062px; max-width: 80.4062px">Make</button>
             </form>
+            @Html.ValidationMessageFor(q=>q.CountOfDays)<br />
+            @Html.ValidationMessageFor(q=>q.DateOfTrip)<br />
+            @Html.ValidationSummary()
         </div>
     </div>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>

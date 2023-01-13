@@ -73,8 +73,20 @@ namespace SunnyParadise.Controllers
             orderDto.UserId = userId;
             orderDto.HotelId = hotel.Id;
             orderDto.ResortId = resort.Id;
-            await _orderService.AddOrder(orderDto);
-            return RedirectToAction("GetOrders", "AccountProfile");
+            if (hotel.City == resort.City && hotel.Country == resort.Country)
+            {
+                await _orderService.AddOrder(orderDto);
+                return RedirectToAction("GetOrders", "AccountProfile");
+            }
+            else
+            {
+                var hotels = await _hotelService.GetHotels();
+                var resorts = await _resortService.GetResorts();
+                ViewData["Hotels"] = hotels;
+                ViewData["Resorts"] = resorts;
+                ModelState.AddModelError("", "This resort not found. Try again");
+                return View();
+            }
         }
 
         [HttpGet]
@@ -90,7 +102,7 @@ namespace SunnyParadise.Controllers
                 {
                     listWithOrderViewModels.Add(new OrderViewModel
                     {
-                        OrderId= orderDto.OrderId,
+                        OrderId = orderDto.OrderId,
                         UserEmail = HttpContext.User.Identity.Name,
                         CountOfDays = orderDto.CountOfDays,
                         DateOfCreating = orderDto.DateOfCreating,

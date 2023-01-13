@@ -78,15 +78,9 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="nav-link text-white">
+                                <a class="nav-link text-white" asp-area="" asp-controller="AccountProfile" asp-action="GetOrders">
                                     <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#table" /></svg>
                                     Orders
-                                </a>
-                            </li>
-                            <li>
-                                <a class="nav-link text-white" asp-area="" asp-controller="HotelsInfo" asp-action="Home">
-                                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#houses" /></svg>
-                                    Hotels
                                 </a>
                             </li>
                             <li>
@@ -99,7 +93,7 @@
                             {
                                 <li>
                                     <div class="authorizeUserName">
-                                            @Context.User.Identities.Single().Claims.ToList()[1].Value
+                                        @Context.User.Identities.Single().Claims.ToList()[1].Value
                                     </div>
                                 </li>
                             }
@@ -154,10 +148,15 @@
         </a>
     </div>
     <ul class="nav col-md-4 justify-content-end">
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Orders</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Hotels</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Account</a></li>
+        <li class="nav-item">
+            <a class="nav-link px-2 text-white" asp-area="" asp-controller="ResortsInfo" asp-action="Home">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link px-2 text-white" asp-area="" asp-controller="AccountProfile" asp-action="GetOrders">Orders</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link px-2 text-white" asp-area="" asp-controller="AccountProfile" asp-action="Profile">Account</a>
+        </li >
     </ul>
 </footer>
 </html>
