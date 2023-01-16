@@ -69,12 +69,12 @@ namespace SunnyParadise.Controllers
             var hotel = _hotelService.GetHotels().Result.Where(q => q.Name == orderViewModel.HotelName).SingleOrDefault();
             orderViewModel.UserEmail = userEmail;
             orderViewModel.DateOfCreating = DateTime.Now;
-            var orderDto = _mapper.Map<OrderDto>(orderViewModel);
-            orderDto.UserId = userId;
-            orderDto.HotelId = hotel.Id;
-            orderDto.ResortId = resort.Id;
-            if (hotel.City == resort.City && hotel.Country == resort.Country)
+            if (resort != null && hotel.City == resort.City && hotel.Country == resort.Country)
             {
+                var orderDto = _mapper.Map<OrderDto>(orderViewModel);
+                orderDto.UserId = userId;
+                orderDto.HotelId = hotel.Id;
+                orderDto.ResortId = resort.Id;
                 await _orderService.AddOrder(orderDto);
                 return RedirectToAction("GetOrders", "AccountProfile");
             }
@@ -84,7 +84,7 @@ namespace SunnyParadise.Controllers
                 var resorts = await _resortService.GetResorts();
                 ViewData["Hotels"] = hotels;
                 ViewData["Resorts"] = resorts;
-                ModelState.AddModelError("", "This resort not found. Try again");
+                ModelState.AddModelError("", $"This resort not found. Try again. \n {hotel.Name} is located {hotel.City}, {hotel.Country}");
                 return View();
             }
         }

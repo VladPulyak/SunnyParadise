@@ -6,7 +6,7 @@ namespace SunnyParadise.Models
     {
         public int OrderId { get; set; }
 
-        public string UserEmail { get; set; }
+        public string? UserEmail { get; set; }
 
         public string Country { get; set; }
 
