@@ -1,4 +1,8 @@
-﻿@model UserViewModel
+﻿@{
+    string adminEmail = "admin@admin.com";
+    string userEmail = @Context.User.Identity.Name;
+}
+@model UserViewModel
 <body style="background: rgb(218, 187, 131);">
     <div class="container py">
         <div class="main-body">
@@ -28,6 +32,15 @@
                                     <a asp-action="GetOrders" asp-controller="AccountProfile">
                                         <button class="btn btn-primary">Get Orders</button>
                                     </a>
+                                    @if(@userEmail.Equals(adminEmail))
+                                    {
+                                    <a asp-action="AddHotel" asp-controller="AccountProfile">
+                                        <button class="btn btn-primary">Add Hotel</button>
+                                    </a>
+                                    <a asp-action="AddResort" asp-controller="AccountProfile">
+                                        <button class="btn btn-primary">Add Resort</button>
+                                    </a>
+                                    }
                                 </div>
                             </div>
                         </div>
